@@ -36,6 +36,17 @@
 
 % Custom list settings
 \setlist[itemize]{leftmargin=13pt, itemsep=0pt, parsep=0pt, topsep=1pt}
+\newcommand{\project}[4]{
+\vspace{3pt}
+\noindent
+\textbf{#1}
+#2
+\hfill
+\textbf{#3}
+
+#4
+\vspace{4pt}
+}
 
 \begin{document}
 
@@ -46,96 +57,86 @@
     \faIcon{map-marker-alt}\, Dhaka, Bangladesh \quad
     \faIcon{envelope}\, \href{mailto:sdipit099@gmail.com}{sdipit099@gmail.com} \quad
     \faIcon{linkedin}\, \href{https://www.linkedin.com/in/dipit-saha/}{linkedin.com/in/dipit-saha} \quad
-    \faIcon{github}\, \href{https://github.com/dipit099}{github.com/dipit099} \\[1pt]
-    \faIcon{kaggle}\, \href{https://www.kaggle.com/dipit099}{kaggle.com/dipit099} \quad
-    \faIcon{code}\, \href{https://codeforces.com/profile/dipit099}{codeforces.com/profile/dipit099}
+    \faIcon{github}\, \href{https://github.com/dipit099}{github.com/dipit099}
 \end{center}
 \vspace{-4pt}
 
 %-----------EDUCATION-----------
-\section{Education}
+\section{EDUCATION}
 
-\textbf{Bangladesh University of Engineering and Technology (BUET)} \hfill 2021 -- Present \\
+\textbf{Bangladesh University of Engineering and Technology (BUET)} \hfill \textbf{Nov 2022 -- Present} \\
 \textit{B.Sc.\ in Computer Science \& Engineering} \hfill Dhaka, Bangladesh
 \begin{itemize}
-    \item Dean's List honoree for 2nd Year academic excellence in the CSE department
+    \item Dean's List Honoree for 2nd year academic excellence
 \end{itemize}
 
 \vspace{1pt}
-\textbf{Notre Dame College} \hfill 2021 \\
+\textbf{Notre Dame College} \hfill \textbf{July 2019 - Dec 2021} \\
 \textit{Higher Secondary Certificate (HSC)} \hfill Dhaka, Bangladesh
 \begin{itemize}
-    \item General Scholarship, HSC Examination, Dhaka Board
+    \item General Scholarship, Dhaka Board
 \end{itemize}
+
+%-----------PUBLICATIONS-----------
+\section{PUBLICATIONS}
+\begin{itemize}
+    \item \textit{``Not All Code Looks the Same: Multi-View Structural and Semantic Detection of Machine-Generated Code''} \\
+    Accepted at \textbf{SemEval-2026}, ACL 2026 Workshop (20th International Workshop on Semantic Evaluation) \hfill 2026
+    \item \textit{``Zero-Shot Traffic Accident Detection via a Coarse-to-Fine VLM-Tracking Pipeline''} \\
+    Accepted at the \textbf{AUTOPILOT Workshop} @ \textbf{CVPR 2026}, Denver, CO \hfill 2026
+\end{itemize}
+
+
 
 %-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+\section{TECHNICAL SKILLS}
 \vspace{1pt}
 \begin{tabularx}{\textwidth}{@{} l X @{}}
-\textbf{Languages:} & C/C++, Java, Python, JavaScript, SQL, Assembly \\
-\textbf{Web \& Frameworks:} & React, Node.js, Express.js, HTML/CSS \\
-\textbf{Databases:} & PostgreSQL, Oracle, MySQL, Supabase, Firebase \\
-\textbf{Cloud \& DevOps:} & Microsoft Azure, Docker, Kubernetes, Git/GitHub \\
-\textbf{ML / Data Science:} & Pandas, NumPy, Scikit-learn \\
-\textbf{Other:} & Blockchain/Web3, Ethereum Smart Contracts, CTF/Cybersecurity \\
+\textbf{Languages:} & C/C++, Java, Python, JavaScript \\
+\textbf{ML Libraries:} & PyTorch, Keras, TensorFlow, Transformers, Scikit-learn, Pandas, OpenCV, NumPy, Matplotlib \\
+\textbf{Frameworks/Tools:} & React, Django, NodeJS, FastAPI, Azure DevOps, DigitalOcean, Git, Docker, k6, Jest, Grafana \\
+\textbf{Databases:} & PostgreSQL, MySQL, Supabase, Redis\\
+% \textbf{ML / Data Science:} & Pandas, NumPy, Scikit-learn \\
+% \textbf{Other:} & Blockchain/Web3, Ethereum Smart Contracts, CTF/Cybersecurity \\
 \end{tabularx}
 
-%-----------PROJECTS-----------
-\section{Selected Projects}
+\section{PROJECTS}
 
-\textbf{XFactor Search Engine -- AI Engineering Hackathon} \hfill \href{https://github.com/dipit099/FactorSearchEngine-AI_Hackathon}{\faIcon{github}} \\
-\textit{Python, QdrantDB, Semantic Search, NLP} \hfill \textit{Champion -- BrainStation \& Poridhi}
-\begin{itemize}
-    \item Built an intent-based search system with multilingual query understanding and semantic retrieval using QdrantDB
-    \item Designed a cost-effective architecture achieving high relevance on diverse query types, winning 1st place
-\end{itemize}
+\project
+{XFactor Search Engine}
+{\href{https://www.linkedin.com/feed/update/urn:li:activity:7323710240632246272/}{\faIcon{linkedin}}
+\;|\; \textit{Python, QdrantDB, Semantic Search, NLP}}
+{Jan 2025}
+{Built an intent-aware multilingual search engine using semantic retrieval and vector search with QdrantDB. Designed a cost-efficient ranking pipeline achieving high relevance across diverse query types; secured \textbf{Champion} at AI Engineering Hackathon organized by Brain Station 23 and Poridhi.}
 
-\vspace{1pt}
-\textbf{Datathon -- CUET CSE Fest 2025} \hfill \textit{Champion} \\
-\textit{Python, Machine Learning, NLP}
-\begin{itemize}
-    \item Developed a classification model to detect intent and sentiment behind memes, distinguishing political satire from humor
-\end{itemize}
+\project
+{PoliMemeDecode Datathon}
+{\href{https://github.com/dipit099/Cuet_PoliMemeDecode}{\faIcon{github}}
+\;|\; \textit{VLM, NLP, Multimodal Learning}}
+{Dec 2025}
+{Developed a multimodal classification system for Bengali memes by combining textual and visual features. Distinguished Political and Non-Political memes using machine learning models trained on real-world social media content; secured \textbf{Champion}.}
 
-\vspace{1pt}
-\textbf{ExoReach -- NASA Space Apps Challenge 2024} \hfill \href{https://github.com/dipit099/ExoReach-Nasa_Space_Apps_Project}{\faIcon{github}} \\
-\textit{React, Data Visualization, NASA APIs} \hfill \textit{Team BUET Astroscape}
-\begin{itemize}
-    \item Developed an interactive space education platform with 3D exoplanet visualization and a planetary data explorer
-    \item Integrated NASA exoplanet APIs for real-time data rendering and built community features for collaborative learning
-\end{itemize}
+\project
+{ExoReach}
+{\href{https://github.com/dipit099/ExoReach-Nasa_Space_Apps_Project}{\faIcon{github}}
+\;|\; \textit{NASA APIs, Data Visualization, REST APIs, JavaScript}}
+{Oct 2024}
+{Developed an interactive space education platform featuring exoplanet exploration and scientific visualizations. Integrated NASA APIs to provide real-time planetary data and educational content for learners.}
 
-\vspace{1pt}
-\textbf{FictionProfile -- Full-Stack Web Application} \hfill \href{https://github.com/dipit099/FictionProfile-Database_Project}{\faIcon{github}} \\
-\textit{PostgreSQL, Express.js, React, Node.js (PERN)}
-\begin{itemize}
-    \item Designed a media content discovery platform with social features, user profiles, and recommendation capabilities
-    \item Engineered a relational database schema supporting complex queries for content filtering, reviews, and user interactions
-\end{itemize}
+\project
+{FictionProfile}
+{\href{https://github.com/dipit099/FictionProfile-Database_Project}{\faIcon{github}}
+\;|\; \textit{PostgreSQL, Express.js, Node.js React}}
+{Dec 2024}
+{Built a full-stack media discovery platform with social networking, reviews, favorites, and recommendation features. Designed and optimized a relational database schema supporting scalable content retrieval and user interactions.}
 
-\vspace{1pt}
-\textbf{Fine Art Frenzy -- Blockchain Marketplace} \hfill \href{https://github.com/dipit099/Fine_Art_frenzy-Blockchain_Project}{\faIcon{github}} \\
-\textit{Ethereum, Solidity, Web3, React} \hfill \textit{Rising Team Award -- BUET CSE Fest 2023}
-\begin{itemize}
-    \item Built a decentralized digital art marketplace with Ethereum smart contracts for secure ownership and transactions
-\end{itemize}
+\project
+{FoodBunny}
+{\href{https://github.com/dipit099/FoodBunny-JavaFX-Term-Project-L1T2}{\faIcon{github}}
+\;|\; \textit{Java, JavaFX, SceneBuilder, Networking}}
+{2023}
+{Built an end-to-end food delivery application with a client-server architecture and dedicated interfaces for customers and restaurant owners. Implemented networking for real-time order placement and management.}
 
-%-----------ACHIEVEMENTS-----------
-\section{Achievements}
-\begin{itemize}
-    \item \textbf{Champion,} Datathon -- CUET CSE Fest 2025
-    \item \textbf{Champion,} AI Engineering Hackathon -- BrainStation \& Poridhi (Team BUET XFACTOR)
-    \item \textbf{Rising Team Award,} Blockchain Category -- BUET CSE Fest 2023
-    \item \textbf{Dean's List,} 2nd Year Academic Excellence -- BUET CSE Department
-    \item \textbf{Talent Pool Scholarship,} SSC -- Ranked 47th in Dhaka Board (2019); also in JSC and PSC
-\end{itemize}
 
-%-----------ACTIVITIES-----------
-\section{Activities \& Interests}
-\begin{itemize}
-    \item Competitive Programming: Active on Codeforces (\href{https://codeforces.com/profile/dipit099}{dipit099})
-    \item CTF Cybersecurity: Participated in capture-the-flag competitions covering web security and reverse engineering
-    \item Anchored NDEC Freshers' Reception Program at Notre Dame College (2021)
-\end{itemize}
 
 \end{document}

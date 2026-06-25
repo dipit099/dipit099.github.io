@@ -1,0 +1,3 @@
+cd /Users/dipit099/NeatDownload/dipit099.github.io
+pdflatex -interaction=nonstopmode Dipit_Saha_CV.tex
+pdflatex -interaction=nonstopmode Dipit_Saha_CV.tex
